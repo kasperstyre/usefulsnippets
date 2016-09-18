@@ -1,0 +1,1 @@
+for /f %d in ('wmic volume get driveletter^, label ^| findstr "DUCKY"') do set duck=%d
